@@ -6,7 +6,7 @@ const productController=require('../controllers/productController');
 router.post('/create', productController.createProduct);
 
 // List all products
-router.get('/', productController.listProducts);
+router.get('/list', productController.listProducts);
 
 // DELETE /api/products/:id
 router.delete('/:id', productController.delete);
