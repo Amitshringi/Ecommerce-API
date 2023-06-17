@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-
+// const { MongoClient, ServerApiVersion } = require('mongodb');
 // Connect to MongoDB database
-mongoose.connect("mongodb://127.0.0.1:27017/ecommerce");
+mongoose.connect("mongodb+srv://amitshringi0786:h7FPQeS7HZO1D5wQ@amit-shringi.kijdxfg.mongodb.net/?retryWrites=true&w=majority");
 const db = mongoose.connection;
 
 // Event listener for connection errors
